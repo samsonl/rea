@@ -1,0 +1,1 @@
+aws2 cloudformation create-stack --stack-name test1 --template-body "`cat ELBWithLockedDownAutoScaledInstances.template`"  --parameters ParameterKey=KeyName,ParameterValue=lcs18Jan2020 ParameterKey=Subnets,ParameterValue=\"subnet-6efb9a18,subnet-c6a1d0a2\" ParameterKey=VpcId,ParameterValue=vpc-949c29f0
