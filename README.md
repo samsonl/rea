@@ -45,8 +45,8 @@ How to run the stack create
    This is handy 
      `aws elbv2 describe-load-balancers --query "LoadBalancers[*].DNSName" --output table`
   You should see this
-    [ec2-user@ip-10-0-0-131 rea]$ curl http://internal-test2-Appli-QT7QE9OPP13-1769602785.ap-southeast-2.elb.amazonaws.com
-    Hello World![ec2-user@ip-10-0-0-131 rea]$
+    `[ec2-user@ip-10-0-0-131 rea]$ curl http://internal-test2-Appli-QT7QE9OPP13-1769602785.ap-southeast-2.elb.amazonaws.com
+    Hello World![ec2-user@ip-10-0-0-131 rea]$`
 
 Improvements
 ============
