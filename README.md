@@ -34,7 +34,7 @@ How to run the stack create
 
 1) Ensure the AWS cli is available
 
-2) edit the file create_stack.sh and modify the variables at the top of the script, set them to appropriate values for your AWS account. Make sure you run the script on a bastion host with an appropriate role or run aws configure with valid credntials.
+2) edit the file create_stack.sh and modify the variables at the top of the script, set them to appropriate values for your AWS account. Make sure you run the script on a bastion host with an appropriate role or run aws configure with valid credentials.
 
 3) run the script
      sh create_stack.sh
